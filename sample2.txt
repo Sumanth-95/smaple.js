@@ -1,1 +1,102 @@
-happy independence day
+
+"use strict" ;
+var firstName = "surya"
+let lastName = "vardhan"
+const firstName1 = "kiran"
+
+// Global variable
+let kiran = 22
+var surya = 19
+const kumar = 33
+// local variable
+  let jay = 44
+console.log(kiran)
+console.log(surya)
+console.log(kumar)
+console.log(jay)
+let  a = 10
+let b= 4
+console.log((a+b),(a-b),(a*b),(a/b),(a%b))
+// comparition 
+console.log((a==b),(a!=b),(a===b),(a!==b),(a<=b),(a>=b),(a<b),(a>b))
+// logical operators
+let amal = true
+var jivan = false
+console.log((amal) && (jivan))
+console.log((amal) || (jivan))
+console.log(!(amal) && (jivan))
+// primitive data types 
+const E = "naveen"
+const F = 22
+const G = true
+const H = " "
+const I = (undefined)
+console.log(E)
+console.log(F)
+console.log(G)
+console.log(H)
+console.log(I)
+//Type Conversion and Coercion
+const input = '1919'
+const input1 = 2020
+console.log(Number(input), input);
+ console.log(Number(input) + 18);
+ console.log(String(input1),input1)
+ console.log(Boolean(input1),input1)
+// Coercion
+ const js = "191"
+ console.log('the js: ' + js + '.');
+ console.log('I am ' + (23<=191) + ' years old');
+console.log("The " +js+ " is a lucky number")
+
+//
+const q='jaydev'
+const r='nithes'
+console.log(q+r)
+console.log(q.length)
+console.log(r.length)
+//
+let jsv = 'jonus'
+console.log(`the jsv means: ${jsv}`);
+//
+let m = 'sandeep'
+const n = 'mani'
+if(m=n){
+    console.log('The length of both strings are equal ')
+}
+else if (m=n){
+    console.log('The length of both strings are not equal')
+}
+else {
+    console.log('enter  NEW string')
+}
+
+//
+const Number1 = 3;
+switch(Number1){
+    case 1 :
+        console.log('Hello every one ');
+        console.log('Get ready ');
+    break;
+    case 2 :
+        console.log('For the trip ');
+        console.log('to the world ');
+    break;
+    case 3 :
+        console.log('Don for the life ');
+        console.log('No fear ');
+    break;
+    case 4 :
+        console.log('Dont worry for the future ');
+        console.log('Just chill');
+    break;
+    
+}
+
+//
+function ajay(a,b){
+console.log(`hi i ${a} am sandeep ${b}`)
+}
+ajay(1,2)
+ajay(3,4)
+ajay(5,6)
